@@ -4,7 +4,7 @@ const fs = require("fs");
 const dateFormat = require('dateformat');
 const client = new Discord.Client(); 
 const Canvas = require("canvas"); //npm i canvas
-const prefix = "YOUR Prefix Here"
+const prefix = "#"
 let profile = JSON.parse(fs.readFileSync("profile.json", "utf8"))
 
 //////////////////////////
@@ -846,4 +846,4 @@ message.channel.stopTyping()
 })
 }
 });
-client.login("token Your Bot Here");
+client.login("NTI0NjY1MzUwNDcwNjMxNDI0.DvrYQw.HhrprEbBZskvVDfNq299hz5VJ6k");
